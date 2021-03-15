@@ -1,8 +1,9 @@
 import React from 'react'
+import Header from './components/Header.js'
 import Home from './components/Home.js'
 import Skills from './components/Skills.js'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Projects from './components/Projects.js'
+import Contact from './components/Contact.js'
 import { Route, Switch } from 'react-router-dom'
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Switch>
       <Route exact path="/">
+        <Header />
       <Home />
       <Skills />
       <Projects />
