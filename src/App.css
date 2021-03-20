@@ -22,9 +22,19 @@
 }
 
 .Skills {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
 }
+.section {
+  display: flex;
+  justify-content:center;
+  justify-content: space-evenly;
+}
+
+
+
+
 
 
