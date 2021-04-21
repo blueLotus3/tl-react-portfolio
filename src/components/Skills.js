@@ -4,8 +4,9 @@ import React from 'react'
 const Skills = () => {
     return(
         <div className="Skills">
+            <h2>Skills</h2>
     <section className="section">           
-     <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676086/HTML5_ja7nlk.png" alt="" width="80" height="80"/> 
+     <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676086/HTML5_ja7nlk.png" alt="" width="80" height="80" />
      <img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676095/css3_qmd3cu.png" alt="" width="60" height="80"/>
      </section> <br />
      <section className="section"><img src="https://res.cloudinary.com/ds7w3ysag/image/upload/v1608676101/learn-javascript_swnj27.png" alt="" width="60" height="65" />
